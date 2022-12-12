@@ -16,7 +16,7 @@
   <li>CSS3</li>
   <li>SCSS</li>
   <li>JAVASCRIPT</li>
-  <li>CSS3</li>
+  <li>ANIMATION</li>
   <li>DATE FUNCTION</li>
 </ul>
 <br>
