@@ -7,6 +7,7 @@
 --> seasonal background<br>
 --> Rainy , Sunny , Snowfall<br>
 --> Clock home<br>
+--> Responsive<br>
 <br><br>
 
 ## TECHNOLOGIES USED
