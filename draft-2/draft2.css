@@ -112,7 +112,7 @@ body
 .lockw
 {
     width: 1px;
-    height: 100px;
+    height: 97px;
     border-radius: 50%; 
     position: relative;
     top: -2px;
@@ -151,7 +151,7 @@ body
 .lockw2
 {
     width: 1px;
-    height: 100px;
+    height: 97px;
     /* /* border-radius: 50%;  */
     position: relative;
     top: -2px;
@@ -342,4 +342,305 @@ body
 }
 .triangle:after {
 	transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
+}
+
+@media (max-width:1500px) {
+    .sunB
+    {
+        display: none;
+    }
+    .snowB
+    {
+        display: none;
+    }
+    .rainB
+    {
+        width: 100%;
+    }
+    #rainyimg
+    {
+        width: 100%;
+    }
+    .moon
+    {
+        display: none;
+    }
+    .sun
+    {
+        position: absolute;
+        left: 10px;
+    }
+    .triangle
+    {
+        position: absolute;
+        left: 500px;
+    }
+    .part1
+    {
+        position: absolute;
+        left: 415px;
+    }
+    .clock
+    {
+        position: fixed;
+        left: 550px;
+    }
+    .rain
+    {
+        display: none;
+    }
+    .front-row
+    {
+        display: none;
+    }
+    div.back-row-toggle.splat-toggle .rain.back-row {
+        display: none;
+      }
+      .rain.back-row {
+        display: none;
+
+      }
+}
+@media (max-width:1200px) {
+    .sunB
+    {
+        display: block;
+    }
+    .snowB
+    {
+        display: none;
+    }
+    .rainB
+    {
+        width: 100%;
+    }
+    #sunnyimg
+    {
+        width: 1200px;
+    }
+    #rainyimg
+    {
+        display: none;
+    }
+    .sun
+    {
+        display: none;
+    }
+    .triangle
+    {
+        background-color: #091729;
+        box-shadow: 10px 10px 50px #010d13 ,15px 15px 60px #010c19;
+    }
+    .part1
+    {
+        background: linear-gradient(#05469a,#082851,#091729,#091729,#091729);
+    }
+    .clock
+    {
+        box-shadow: 10px 50px 70px #091729,
+        inset 5px 5px 10px #091729,
+        inset 5px 5px 20px #082851,
+        inset -5px -5px 15px #05469a,
+        inset -3px -3px 10px #044eaf;
+        background: #091729;
+    }
+    .circle i
+    {
+        background: #ffff;
+    }
+    .circle::before
+    {
+        background: #fff;
+    }
+    .hrl,
+    .hrl2
+    {
+        border-bottom: 1px solid #fff;
+    }
+    .lockw,
+    .lockw2
+    {
+
+        background-color: #fff;
+    }
+    .hrl2:nth-child(even),
+    .hrl:nth-child(even)
+    {
+        border-bottom: 1px solid #fff;
+    }
+    .windows,
+    .windows2
+    {
+        border: 1px solid #fff;
+    }
+    .rain
+    {
+        width: 100%;
+    }
+    .front-row
+    {
+        width: 1200px;
+    }
+    div.back-row-toggle.splat-toggle .rain.back-row {
+        display: block;
+      }
+      .rain.back-row {
+        width: 1200px;
+
+      }
+      
+
+}
+@media (max-width:1000px) {
+    
+    .sunB
+    {
+        display: none;
+    }
+    .snowB
+    {
+        display: block;
+        width: 1200px;
+        height: fit-content;
+    }
+
+    body
+    {
+        width: 1100px;
+    }
+    .rainB
+    {
+        display: none;
+    }
+    .moon
+    {
+        display: block;
+        position: relative;
+        right: 80px;
+    }
+    #snowimg
+    {
+        width: 1100px;
+    }
+    .triangle
+    {
+        position: absolute;
+        left: 300px;
+        background-color: #04070b;
+        box-shadow: 10px 10px 50px #010d13 ,15px 15px 60px #010c19;
+        border: none;
+    }
+    .part1
+    {
+        position: absolute;
+        left: 215px;
+        background: linear-gradient(#6e6f70,#28282c,#212121,#0c0c0c,#00050c);
+
+    }
+    .clock
+    {
+        position: fixed;
+        left: 350px;
+        box-shadow: 10px 50px 70px #000000,
+        inset 5px 5px 10px #121010,
+        inset 5px 5px 20px #1d1d1e,
+        inset -5px -5px 15px #333334,
+        inset -3px -3px 10px #363636;
+        background: #070707;
+    }
+    .circle i
+    {
+        background: #ffff;
+    }
+    .circle::before
+    {
+        background: #fff;
+        box-shadow: 0 0 20px rgb(239, 232, 232),
+        0 0 60px rgb(240, 235, 235);
+    }
+}
+
+@media (300px <= width <= 700px) {
+    
+    .triangle
+    {
+        position: absolute;
+        left: 100px;
+    }
+    .triangle,
+    .triangle:before,
+    .triangle:after {
+        width:  12em;
+        height: 12em;
+    }
+    .part1
+    {
+        position: absolute;
+        top: 350px;
+        left: 60px;
+        width: 280px;
+        height: 240px;
+    }
+    .clock
+    {
+        position: fixed;
+        left: 120px;
+        width: 140px;
+        height: 140px;
+    }
+    .circle
+    {
+        height: 100px;
+        width: 100px;
+    }
+    .circle2
+    {
+        height: 80px;
+        width: 80px;
+    }
+    .circle3
+    {
+        height: 60px;
+        width: 60px;
+    }
+    .windows
+    {
+        position: relative;
+        top: 80px;
+        left: 32.5px;
+        height: 60px;
+        width: 40px;
+    }
+    .windows2
+    {
+        height: 60px;
+        width: 40px;
+        position: relative;
+        left: 207.5px;
+    }
+    .lockw,
+    .lockw2
+    {
+        display: none;
+    }
+    .door
+    {
+        width: 70px;
+        height: 110px; 
+        position: relative;
+        top: 8px; 
+        left: 105px; 
+    }
+    .lock
+    {
+        position: relative;
+        top: 40px;
+        left: 50px;
+    }
+    .moon
+    {
+        position: absolute;
+        left: 600px;
+    }
+
 }
