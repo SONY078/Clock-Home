@@ -1,7 +1,7 @@
 # Clock-Home
 
 
-## FEATURES OF THIS TODO APP
+## FEATURES OF THIS CLOCK APP
 <br>
 --> ANALOG CLOCK <br>
 --> seasonal background<br>
